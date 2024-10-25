@@ -5,12 +5,12 @@
 <p align="center">Easily detect and block developer tools on any web server.</p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/dev-tools-detector">
-    <img alt="version" src="https://img.shields.io/npm/v/dev-tools-detector" />
+  <a href="https://www.npmjs.com/package/developer-tools-detector">
+    <img alt="version" src="https://img.shields.io/npm/v/developer-tools-detector" />
   </a>
 
-  <a href="https://www.npmjs.com/package/dev-tools-detector">
-    <img alt="downloads" src="https://img.shields.io/npm/dt/dev-tools-detector" />
+  <a href="https://www.npmjs.com/package/developer-tools-detector">
+    <img alt="downloads" src="https://img.shields.io/npm/dt/developer-tools-detector" />
   </a>
 </p>
 
@@ -21,7 +21,7 @@
 
 
 ```
-npm install dev-tools-detector
+npm install developer-tools-detector
 ```
 
 
@@ -29,7 +29,7 @@ npm install dev-tools-detector
 
 
 ```
-yarn add dev-tools-detector
+yarn add developer-tools-detector
 ```
 
 <h2>Usage</h2>
@@ -53,15 +53,15 @@ yarn add dev-tools-detector
 
 - `blockIfDetected` - Do you want to block (about:blank) user that will open devtools?
 
-- `allowedPaths` - What paths you want to have dev-tools-detection enabled on?
+- `allowedPaths` - What paths you want to have developer-tools-detection enabled on?
 
 <h4>Import and usage example</h4>    
 
-<p>You can use DTD (dev-tools-detector) on any web server. For example this is usage of DTD in express web server.</p>
+<p>You can use DTD (developer-tools-detector) on any web server. For example this is usage of DTD in express web server.</p>
 
 ```js
 const express = require('express');
-const { DevToolsDetector } = require('dev-tools-detector'); 
+const { DevToolsDetector } = require('developer-tools-detector'); 
 
 const app = express();
 const port = 3000;
@@ -119,7 +119,7 @@ Developer tools detected on the client!
 
 <p>
 
-  > If you have any issues don't hesitate to report it via  <a href="https://github.com/lazyfenix/dev-tool-detector/issues">GitHub Issues</a>.
+  > If you have any issues don't hesitate to report it via  <a href="https://github.com/lazyfenix/developer-tool-detector/issues">GitHub Issues</a>.
 
 </p>
 

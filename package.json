@@ -1,5 +1,5 @@
 {
-  "name": "dev-tools-detector",
+  "name": "developer-tools-detector",
   "version": "1.0.0",
   "description": "Easily detect and block developer tools on any web server.",
   "main": "dist/index.js",
